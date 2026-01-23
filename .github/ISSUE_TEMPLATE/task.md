@@ -10,13 +10,12 @@ assignees: ""
 -
 
 ## Scope / checklist
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ]
+- [ ]
+- [ ]
 
 ## Acceptance criteria
-- [ ] 
+- [ ]
 
 ## Notes / links
 -
-
