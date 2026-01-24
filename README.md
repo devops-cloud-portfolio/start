@@ -18,7 +18,7 @@ Goal: in ~10 minutes you can click through the key parts and quickly verify the 
   ADR 0001 (repo structure):
 - TODO: paste full GitHub URL to "devops-docs/docs/decisions/0001-repo-structure.md"
 
-2. **CI evidence**
+1. **CI evidence**
 
 - Go to the **Actions** tab and check the latest runs:
   - `markdownlint`
