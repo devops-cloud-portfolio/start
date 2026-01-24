@@ -1,5 +1,7 @@
 # DevOps Cloud Project
 
+[![ci](https://github.com/devops-cloud-portfolio/start/actions/workflows/ci.yml/badge.svg)](https://github.com/devops-cloud-portfolio/start/actions/workflows/ci.yml)
+
 ## What this is
 
 This is my DevOps project built like a small “mini-production” setup.\
