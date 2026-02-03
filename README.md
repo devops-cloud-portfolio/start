@@ -15,10 +15,9 @@ Goal: in ~10 minutes you can click through the key parts and quickly verify the 
 
 1. **Docs hub (architecture and decisions)**
    Architecture v0:
-
-- TODO: paste full GitHub URL to "devops-docs/docs/architecture/architecture-v0.md"
-  ADR 0001 (repo structure):
-- TODO: paste full GitHub URL to "devops-docs/docs/decisions/0001-repo-structure.md"
+   - https://github.com/devops-cloud-portfolio/devops-docs/blob/main/docs/architecture/architecture-v0.md
+   ADR 0001 (repo structure):
+   - https://github.com/devops-cloud-portfolio/devops-docs/blob/main/docs/decisions/0001-repo-structure.md
 
 1. **CI evidence**
 
