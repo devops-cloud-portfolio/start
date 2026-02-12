@@ -16,8 +16,9 @@ Goal: in ~10 minutes you can click through the key parts and quickly verify the 
 1. **Docs hub (architecture and decisions)**
 
    Architecture v0:
+
    - [Architecture v0](https://github.com/devops-cloud-portfolio/devops-docs/blob/main/docs/architecture/architecture-v0.md)
-   ADR 0001 (repo structure):
+     ADR 0001 (repo structure):
    - [ADR 0001](https://github.com/devops-cloud-portfolio/devops-docs/blob/main/docs/decisions/0001-repo-structure.md)
 
 1. **CI evidence**
@@ -92,3 +93,7 @@ Goal: in ~10 minutes you can click through the key parts and quickly verify the 
 - Everything goes through Pull Requests.
 - No secrets in the repo.
 - Key steps are reproducible and documented.
+
+## Security note
+
+Never commit secrets. Use GitHub Secrets and encrypted GitOps secrets.
