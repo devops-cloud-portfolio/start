@@ -92,3 +92,8 @@ Goal: in ~10 minutes you can click through the key parts and quickly verify the 
 - Everything goes through Pull Requests.
 - No secrets in the repo.
 - Key steps are reproducible and documented.
+
+## Security note
+
+Never commit secrets. Use GitHub Secrets and encrypted GitOps secrets.
+
