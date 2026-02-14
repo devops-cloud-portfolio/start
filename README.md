@@ -77,16 +77,22 @@ Goal: in ~10 minutes you can click through the key parts and quickly verify the 
 - [ ] Terraform remote state and CI
 - [ ] AWS auth via OIDC
 
-## Roadmap (16 weeks)
+## Roadmap
 
-- Week 1: repo structure, docs hub, CI quality gates ✅
-- Week 2: minimal workload locally (API, worker, Redis, Postgres)
-- Week 3-4: CI build policy and security scans
-- Week 5: Ansible and self-hosted runner
-- Week 6-10: Kubernetes, Helm, GitOps, secrets, NetworkPolicy
-- Week 11-12: Observability and backup/restore drill
-- Week 13-14: AWS Terraform, Terraform to Ansible chain and CKA simulation
-- Week 15-16: incident drill, postmortem, GitLab CI proof and final pack
+- [x] Basics: org, repo structure, PR rules, CI for docs (markdownlint, yamllint, actionlint)
+- [ ] Workload MVP (local): API, worker, Redis, Postgres, docker-compose
+- [ ] CI build/publish rules: PR no push, main SHA tag, release semver tag, GHCR
+- [ ] Security in CI: secret scan, image scan, reports as artifacts
+- [ ] Automation: Ansible bootstrap, self-hosted GitHub Runner, rebuild runbook
+- [ ] Kubernetes deploy: probes, resources, RBAC, securityContext
+- [ ] Helm: chart, manifest validation, basic security baseline
+- [ ] GitOps: Argo CD (dev/stage), promotion via PR
+- [ ] GitOps secrets: SOPS, age, NetworkPolicy
+- [ ] Observability: dashboards, alerts, runbooks
+- [ ] Backup/restore: scheduled backup, restore test report
+- [ ] IaC: AWS, Terraform (OIDC), CI checks
+- [ ] Incident drill: incident test, postmortem, GitLab CI proof
+- [ ] Final: clean “10-min demo path”, links to evidence
 
 ## Contract
 
